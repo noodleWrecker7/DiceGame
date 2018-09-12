@@ -27,19 +27,19 @@ public static void Authorise() {
 }
 
 
-public static void calculateWinner(int p1, int p2){
+public static void calculateWinner(int ad, int am){
     /*if(player1.total == player2.total){
         undecided = true;
         decider();
     }*/
 
 
-    if(p1 < p2) {
+    if(ad < am) {
         player2.win();
-    } else { if(p1 > p2) {
+    } else { if(ad > am) {
         player1.win();
     }
-    } if(p1 == p2) {
+    } if(ad == am) {
         System.out.println("scores are equal");
         decider();
     }
