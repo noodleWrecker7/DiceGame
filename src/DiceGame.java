@@ -33,7 +33,6 @@ public static void calculateWinner(int ad, int am){
         decider();
     }*/
 
-
     if(ad < am) {
         player2.win();
     } else { if(ad > am) {
